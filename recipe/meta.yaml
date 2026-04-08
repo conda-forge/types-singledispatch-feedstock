@@ -1,5 +1,5 @@
 {% set name = "types-singledispatch" %}
-{% set version = "4.1.0.20250809" %}
+{% set version = "4.1.0.20260408" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b191c98c2d8809d53987faaae48c7382e2a1f4cd89a64de2ef61ce2011e49b7c
+  sha256: f77f487a6e137e986916ca37b36abd8b441561b11088e3cb7b42336fa5a9a47f
 
 build:
   number: 0
